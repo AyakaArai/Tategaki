@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B75328684172CA226C811FC /* Pods_Tategaki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35904B97AC071C775B1A2F66 /* Pods_Tategaki.framework */; };
+		2324B8B6D3866D58276B2B89 /* Pods_TategakiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01BD129AAA90AD5B5D0FC12 /* Pods_TategakiTests.framework */; };
+		A4D66780F57E48B03E8C48DC /* Pods_TategakiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4576FF6AB482931F64504D7 /* Pods_TategakiUITests.framework */; };
 		A7ED759421B24DA200E8376F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED759321B24DA200E8376F /* AppDelegate.swift */; };
 		A7ED759621B24DA200E8376F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED759521B24DA200E8376F /* ViewController.swift */; };
 		A7ED759921B24DA200E8376F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED759721B24DA200E8376F /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21B9D040FD9C921A3AF11EE6 /* Pods-TategakiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TategakiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TategakiUITests/Pods-TategakiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35904B97AC071C775B1A2F66 /* Pods_Tategaki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tategaki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7312DDF3297FC818EE7BC9 /* Pods-Tategaki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tategaki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tategaki/Pods-Tategaki.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF57B273BCF23EBA0DB0E01 /* Pods-TategakiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TategakiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TategakiUITests/Pods-TategakiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95B5B21058AE0E990C40AB3A /* Pods-TategakiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TategakiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TategakiTests/Pods-TategakiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FFEA3AADFF86954BD5F105B /* Pods-TategakiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TategakiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TategakiTests/Pods-TategakiTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7ED759021B24DA200E8376F /* Tategaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tategaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7ED759321B24DA200E8376F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7ED759521B24DA200E8376F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		A7ED75AF21B24DA400E8376F /* TategakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TategakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7ED75B321B24DA400E8376F /* TategakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TategakiUITests.swift; sourceTree = "<group>"; };
 		A7ED75B521B24DA400E8376F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4576FF6AB482931F64504D7 /* Pods_TategakiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TategakiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3D4968D591CC95EFBA848A /* Pods-Tategaki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tategaki.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tategaki/Pods-Tategaki.release.xcconfig"; sourceTree = "<group>"; };
+		F01BD129AAA90AD5B5D0FC12 /* Pods_TategakiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TategakiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B75328684172CA226C811FC /* Pods_Tategaki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2324B8B6D3866D58276B2B89 /* Pods_TategakiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D66780F57E48B03E8C48DC /* Pods_TategakiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40DC2E8CC9E8CF73836CAF0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7312DDF3297FC818EE7BC9 /* Pods-Tategaki.debug.xcconfig */,
+				EB3D4968D591CC95EFBA848A /* Pods-Tategaki.release.xcconfig */,
+				95B5B21058AE0E990C40AB3A /* Pods-TategakiTests.debug.xcconfig */,
+				9FFEA3AADFF86954BD5F105B /* Pods-TategakiTests.release.xcconfig */,
+				21B9D040FD9C921A3AF11EE6 /* Pods-TategakiUITests.debug.xcconfig */,
+				5AF57B273BCF23EBA0DB0E01 /* Pods-TategakiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7ED758721B24DA200E8376F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				A7ED75A721B24DA400E8376F /* TategakiTests */,
 				A7ED75B221B24DA400E8376F /* TategakiUITests */,
 				A7ED759121B24DA200E8376F /* Products */,
+				40DC2E8CC9E8CF73836CAF0B /* Pods */,
+				F24EC5C016578BB7D7DCFDA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = TategakiUITests;
 			sourceTree = "<group>";
 		};
+		F24EC5C016578BB7D7DCFDA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35904B97AC071C775B1A2F66 /* Pods_Tategaki.framework */,
+				F01BD129AAA90AD5B5D0FC12 /* Pods_TategakiTests.framework */,
+				C4576FF6AB482931F64504D7 /* Pods_TategakiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7ED75B821B24DA400E8376F /* Build configuration list for PBXNativeTarget "Tategaki" */;
 			buildPhases = (
+				3A57B65555A583953E6A68C6 /* [CP] Check Pods Manifest.lock */,
 				A7ED758C21B24DA200E8376F /* Sources */,
 				A7ED758D21B24DA200E8376F /* Frameworks */,
 				A7ED758E21B24DA200E8376F /* Resources */,
+				53F1300FE68A8E78AB811A54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7ED75BB21B24DA400E8376F /* Build configuration list for PBXNativeTarget "TategakiTests" */;
 			buildPhases = (
+				E50D2C352ACF3628AA739677 /* [CP] Check Pods Manifest.lock */,
 				A7ED75A021B24DA400E8376F /* Sources */,
 				A7ED75A121B24DA400E8376F /* Frameworks */,
 				A7ED75A221B24DA400E8376F /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7ED75BE21B24DA400E8376F /* Build configuration list for PBXNativeTarget "TategakiUITests" */;
 			buildPhases = (
+				100A54DBF62814642A4E11BD /* [CP] Check Pods Manifest.lock */,
 				A7ED75AB21B24DA400E8376F /* Sources */,
 				A7ED75AC21B24DA400E8376F /* Frameworks */,
 				A7ED75AD21B24DA400E8376F /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		100A54DBF62814642A4E11BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TategakiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A57B65555A583953E6A68C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tategaki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F1300FE68A8E78AB811A54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tategaki/Pods-Tategaki-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tategaki/Pods-Tategaki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50D2C352ACF3628AA739677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TategakiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7ED758C21B24DA200E8376F /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		A7ED75B921B24DA400E8376F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7312DDF3297FC818EE7BC9 /* Pods-Tategaki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +583,7 @@
 		};
 		A7ED75BA21B24DA400E8376F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3D4968D591CC95EFBA848A /* Pods-Tategaki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		A7ED75BC21B24DA400E8376F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B5B21058AE0E990C40AB3A /* Pods-TategakiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		A7ED75BD21B24DA400E8376F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFEA3AADFF86954BD5F105B /* Pods-TategakiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +643,7 @@
 		};
 		A7ED75BF21B24DA400E8376F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B9D040FD9C921A3AF11EE6 /* Pods-TategakiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +663,7 @@
 		};
 		A7ED75C021B24DA400E8376F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF57B273BCF23EBA0DB0E01 /* Pods-TategakiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
